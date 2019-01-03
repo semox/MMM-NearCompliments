@@ -13,6 +13,7 @@ To use this module, add it to the modules array in the `config/config.js` file:
 modules: [
 	{
 		module: 'MMM-NearCompliments',
+		// position: 'bottom_left',
 		config: {
 			// See 'Configuration options' for more information.
 		}
