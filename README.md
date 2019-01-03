@@ -89,7 +89,7 @@ The following properties can be configured:
 		</tr>
 		<tr>
 			<td><code>usePIR</code></td>
-			<td>Should we use PIR sensor to activate only distance measurment when USER_PRESENSENCE notification is sent by MMM-PIR-Sensor?
+			<td>Should we use PIR sensor to activate only distance measurment when USER_PRESENCE notification is sent by MMM-PIR-Sensor?
 				<br><b>Possible values:</b> <code>boolean</code>
 				<br><b>Default value:</b> <code>false</code>
 			</td>
