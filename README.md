@@ -1,10 +1,11 @@
 # MMM-NearCompliments
-This is an extension for the [MagicMirror](https://github.com/MichMich/MagicMirror). It uses the USER_PRESENSENCE notification of [MMM-PIR-Sensor](https://github.com/semox/MMM-NearCompliments.git) to activate distance measurement of a [HC-SR04 sensor](https://tutorials-raspberrypi.de/entfernung-messen-mit-ultraschallsensor-hc-sr04/) to display the compliments module for a specified time when a measured distance is fallen below a specified distance. Inspired by https://github.com/thobach/MMM-Gestures and https://github.com/mochman/MMM-Swipe.
+This is an extension for the [MagicMirror](https://github.com/MichMich/MagicMirror). It uses the USER_PRESENCE notification of [MMM-PIR-Sensor](https://github.com/semox/MMM-NearCompliments.git) to activate distance measurement of a [HC-SR04 sensor](https://tutorials-raspberrypi.de/entfernung-messen-mit-ultraschallsensor-hc-sr04/) to display the compliments module for a specified time when a measured distance is fallen below a specified distance. Inspired by https://github.com/thobach/MMM-Gestures and https://github.com/mochman/MMM-Swipe.
 
 ## Installation
 1. Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/semox/MMM-NearCompliments.git`. A new folder will appear navigate into it.
 2. Execute `npm install` to install the node dependencies.
-3. Reboot your Pi.
+3. Configure config/config.js with documentation below.
+4. Reboot your Pi.
 
 ## Using the module
 
